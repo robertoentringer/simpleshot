@@ -11,4 +11,4 @@ Add to Chrome : [chrome web store
 
 Github: https://github.com/robertoentringer/simpleshot
 
-![screenshot.png](screenshot.png)
+[![screenshot.png](screenshot.png)](https://chrome.google.com/webstore/detail/simpleshot/mklgklpdgchajjneilafbnlnichcfcon)
