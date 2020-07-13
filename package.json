@@ -2,8 +2,9 @@
   "name": "simpleshot",
   "version": "0.0.1",
   "description": "A pretty simple Chrome extension for take a screenshot from current tab.",
-  "main": "src/background.js",
+  "main": "./src/background.js",
   "scripts": {
+    "lint": "eslint --fix  src/**/*.js --fix",
     "pack": "zipack src/manifest.json"
   },
   "repository": {
@@ -24,10 +25,10 @@
   },
   "homepage": "https://github.com/robertoentringer/simpleshot#readme",
   "devDependencies": {
-    "eslint": "^5.16.0",
-    "eslint-config-prettier": "^5.0.0",
-    "eslint-plugin-prettier": "^3.1.0",
-    "prettier": "^1.18.2",
-    "zipack": "0.0.5"
+    "eslint": "^7.4.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "prettier": "^2.0.5",
+    "zipack": "0.0.7"
   }
 }
